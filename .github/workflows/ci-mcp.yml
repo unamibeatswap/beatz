@@ -1,0 +1,32 @@
+name: CI - MCP Server
+
+on:
+  push:
+    branches: [ main, 'fix/*', '**/fix-*' ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies (mcp-server)
+        working-directory: ./packages/mcp-server
+        run: |
+          npm ci
+
+      - name: Run basic smoke server and test endpoints
+        working-directory: ./packages/mcp-server
+        run: |
+          nohup npm start &
+          sleep 3
+          curl -fsS http://localhost:4000/ || (cat nohup.out && exit 1)
+          curl -fsS http://localhost:4000/healthz || (cat nohup.out && exit 1)

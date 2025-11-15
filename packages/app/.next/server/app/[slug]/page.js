@@ -1,0 +1,188 @@
+(()=>{var e={};e.id=7182,e.ids=[7182,7983],e.modules={3295:e=>{"use strict";e.exports=require("next/dist/server/app-render/after-task-async-storage.external.js")},5643:(e,t,r)=>{Promise.resolve().then(r.bind(r,79060))},6378:e=>{"use strict";e.exports=require("tty")},8086:e=>{"use strict";e.exports=require("module")},8237:(e,t,r)=>{"use strict";r.a(e,async(e,a)=>{try{r.d(t,{A:()=>o});var s=r(13486),n=r(20497),i=e([n]);function o({data:e}){if(!e||!e.headline)return(0,s.jsx)("div",{style:{background:"linear-gradient(135deg, #667eea 0%, #764ba2 100%)",minHeight:"50vh",display:"flex",alignItems:"center",justifyContent:"center",color:"white"},children:(0,s.jsxs)("div",{style:{textAlign:"center"},children:[(0,s.jsx)("h1",{style:{fontSize:"3rem",fontWeight:"bold"},children:"BeatsChain"}),(0,s.jsx)("p",{style:{fontSize:"1.25rem",opacity:.9},children:"Content loading..."})]})});let{headline:t,subheadline:r,backgroundImage:a,style:i,ctaButtons:o,badges:l}=e;return(0,s.jsxs)("div",{style:{...(()=>{try{if("image"!==i)return{background:"linear-gradient(135deg, #667eea 0%, #764ba2 100%)"};if(a){let e=(0,n.dk)(a).url();return e?{backgroundImage:`url(${e})`,backgroundSize:"cover",backgroundPosition:"center"}:{background:"linear-gradient(135deg, #667eea 0%, #764ba2 100%)"}}return{background:"linear-gradient(135deg, #667eea 0%, #764ba2 100%)"}}catch(e){return{background:"linear-gradient(135deg, #667eea 0%, #764ba2 100%)"}}})(),minHeight:"80vh",display:"flex",alignItems:"center",color:"white",position:"relative",overflow:"hidden"},children:[(0,s.jsx)("div",{style:{position:"absolute",inset:0,background:"rgba(0,0,0,0.3)"}}),(0,s.jsx)("div",{style:{maxWidth:"1200px",margin:"0 auto",padding:"4rem 2rem",position:"relative",zIndex:1},children:(0,s.jsxs)("div",{style:{textAlign:"center"},children:[(0,s.jsx)("h1",{style:{fontSize:"4rem",fontWeight:"bold",marginBottom:"1.5rem",lineHeight:"1.1"},children:t}),r&&(0,s.jsx)("p",{style:{fontSize:"1.5rem",marginBottom:"3rem",opacity:.9,maxWidth:"600px",margin:"0 auto 3rem"},children:r}),l&&l.length>0&&(0,s.jsx)("div",{style:{display:"flex",gap:"1rem",justifyContent:"center",flexWrap:"wrap",marginBottom:"2rem"},children:l.map((e,t)=>(0,s.jsx)("div",{style:{background:"rgba(255,255,255,0.1)",padding:"0.75rem 1.5rem",borderRadius:"2rem",border:"1px solid rgba(255,255,255,0.2)"},children:e},t))}),o&&o.length>0&&(0,s.jsx)("div",{style:{display:"flex",gap:"1rem",justifyContent:"center",flexWrap:"wrap"},children:o.map((e,t)=>e&&e.text?(0,s.jsx)("a",{href:e.url||"#",style:{background:"primary"===e.style?"#fbbf24":"rgba(255,255,255,0.2)",color:"primary"===e.style?"#1f2937":"white",padding:"1rem 2rem",borderRadius:"0.5rem",textDecoration:"none",fontWeight:"600",fontSize:"1.125rem",display:"inline-flex",alignItems:"center",gap:"0.5rem",border:"secondary"===e.style?"2px solid rgba(255,255,255,0.3)":"none"},children:e.text},t):null)})]})})]})}n=(i.then?(await i)():i)[0],a()}catch(e){a(e)}})},9738:(e,t,r)=>{"use strict";r.a(e,async(e,a)=>{try{r.d(t,{A:()=>m});var s=r(13486),n=r(92960),i=r(61817),o=r(29434),l=r(99232),c=r(72531),d=r(39949),u=r(63645),p=r(88440),h=e([i,o,l,c,d,u]);function m({blocks:e}){return e&&0!==e.length?(0,s.jsx)("div",{className:"content-blocks",children:e.map((e,t)=>{switch(e._type){case"tabsBlock":return(0,s.jsx)(o.A,{title:e.title,tabs:e.tabs,style:e.style,colorScheme:e.colorScheme,customClass:e.customClass,animation:e.animation},e._key||t);case"accordionBlock":return(0,s.jsx)(l.A,{title:e.title,items:e.items,allowMultiple:e.allowMultiple,colorScheme:e.colorScheme,customClass:e.customClass,animation:e.animation},e._key||t);case"featureCardsBlock":return(0,s.jsx)(c.A,{title:e.title,subtitle:e.subtitle,cards:e.cards,columns:e.columns,style:e.style},e._key||t);case"stepsBlock":return(0,s.jsx)(d.A,{title:e.title,subtitle:e.subtitle,steps:e.steps,layout:e.layout},e._key||t);case"testimonialsBlock":return(0,s.jsx)(u.A,{title:e.title,testimonials:e.testimonials,display:e.display},e._key||t);case"pricingTableBlock":return(0,s.jsx)(p.A,{title:e.title,subtitle:e.subtitle,plans:e.plans},e._key||t);case"block":return(0,s.jsx)("div",{className:"prose max-w-none my-6",children:(0,s.jsx)(n.RK,{value:[e],components:{types:{image:({value:e})=>(0,s.jsx)("img",{src:(0,i.dk)(e).width(800).url(),alt:e.alt||" ",className:"rounded-lg my-4"})}}})},e._key||t);case"image":return e.asset?(0,s.jsxs)("div",{className:"my-8",children:[(0,s.jsx)("img",{src:(0,i.dk)(e).width(800).url(),alt:e.alt||" ",className:"w-full h-auto rounded-lg"}),e.caption&&(0,s.jsx)("p",{className:"text-sm text-gray-500 mt-2",children:e.caption})]},e._key||t):null;default:return null}})}):null}[i,o,l,c,d,u]=h.then?(await h)():h,a()}catch(e){a(e)}})},10846:e=>{"use strict";e.exports=require("next/dist/compiled/next-server/app-page.runtime.prod.js")},11997:e=>{"use strict";e.exports=require("punycode")},12412:e=>{"use strict";e.exports=require("assert")},14842:(e,t,r)=>{"use strict";r.a(e,async(e,a)=>{try{r.r(t),r.d(t,{default:()=>p});var s=r(13486),n=r(2984),i=r(60159),o=r(61817),l=r(8237);r(70524);var c=r(80371),d=r(9738),u=e([o,l,c,d]);function p(){let e=(0,n.useParams)().slug,[t,r]=(0,i.useState)(null),[a,o]=(0,i.useState)(!0),[u,p]=(0,i.useState)(!1);return a?(0,s.jsx)("div",{className:"min-h-screen flex items-center justify-center",children:"Loading..."}):t?(0,s.jsxs)(s.Fragment,{children:[(0,s.jsx)(c.A,{title:t.title,description:t.description||`BeatsChain - ${t.title}`,ogImage:`${process.env.NEXT_PUBLIC_SITE_URL||"https://www.beatschain.app"}/api/og/${e}`}),(0,s.jsxs)("div",{children:[t.heroSection&&(0,s.jsx)(l.A,{data:t.heroSection}),(0,s.jsxs)("div",{className:"max-w-4xl mx-auto px-4 py-8",children:[(0,s.jsx)("h1",{className:"text-3xl font-bold mb-6",children:t.title}),u?(0,s.jsx)("div",{dangerouslySetInnerHTML:{__html:t.content}}):(0,s.jsxs)("div",{children:[t.contentBlocks&&t.contentBlocks.length>0&&(0,s.jsx)(d.A,{blocks:t.contentBlocks}),t.content&&(0,s.jsx)(d.A,{blocks:t.content})]})]})]})]}):(0,n.notFound)()}[o,l,c,d]=u.then?(await u)():u,a()}catch(e){a(e)}})},17983:(e,t,r)=>{"use strict";r.a(e,async(e,a)=>{try{r.r(t),r.d(t,{client:()=>h,fetchSanity:()=>c,getNavigation:()=>u,getPageBySlug:()=>p,getSiteSettings:()=>d,urlFor:()=>l});var s=r(28278),n=r(86e3),i=r.n(n),o=e([s]);s=(o.then?(await o)():o)[0];let h=(0,s.createClient)({projectId:"i01qs9p6",dataset:"production",apiVersion:"2023-05-03",token:"skjFJmUQgJ1AirscHu0KYrF7D5v9ycvCaC94ql0oSKGmqmP4XTFQSTYE02reGAaE8MjAEFWO0ULyzMMMdZVsru3DxUZu7NVaarTpbuArReIpwYAHui66uYPOrNi7ZU26t7dVReebx0OfiHHz3HSMGLHMCviGo2zkcd1Ob5xLRqcNcLdofcXy",useCdn:!0}),m=i()(h);function l(e){return m.image(e)}async function c(e,t={}){try{return await h.fetch(e,t)}catch(e){return null}}async function d(){try{return await h.fetch('*[_type == "siteSettings"][0]')}catch(e){return null}}async function u(e=!0){try{return await h.fetch(`
+      *[_type == "navigation" && isMain == ${e}][0] {
+        items[] {
+          label,
+          link,
+          isExternal,
+          requiresAuth,
+          icon,
+          children[] {
+            label,
+            link,
+            isExternal,
+            requiresAuth
+          }
+        }
+      }
+    `)}catch(e){return{items:[]}}}async function p(e){try{return await h.fetch(`
+      *[_type == "page" && slug.current == $slug][0]
+    `,{slug:e})}catch(e){return null}}a()}catch(e){a(e)}})},19121:e=>{"use strict";e.exports=require("next/dist/server/app-render/action-async-storage.external.js")},20497:(e,t,r)=>{"use strict";r.a(e,async(e,a)=>{try{r.d(t,{Bm:()=>c,Sn:()=>u,dk:()=>h,eh:()=>l});var s=r(28278),n=r(37318),i=r.n(n),o=e([s]);s=(o.then?(await o)():o)[0];let d="i01qs9p6",u=d&&1?(0,s.createClient)({projectId:d,dataset:"production",apiVersion:"2023-05-03",useCdn:!1,perspective:"published"}):null,p=u?i()(u):null,h=e=>{if(!p||!e?.asset)return{url:()=>"",width:()=>({url:()=>""}),height:()=>({url:()=>""})};try{return p.image(e)}catch{return{url:()=>"",width:()=>({url:()=>""}),height:()=>({url:()=>""})}}};async function l(e){if(!u)return null;try{return await u.fetch('*[_type == "page" && slug.current == $slug][0]',{slug:e})||null}catch{return null}}async function c(){if(!u)return null;try{return await u.fetch('*[_type == "siteSettings"][0]')||null}catch{return null}}a()}catch(e){a(e)}})},21820:e=>{"use strict";e.exports=require("os")},27910:e=>{"use strict";e.exports=require("stream")},28278:e=>{"use strict";e.exports=import("@sanity/client")},28354:e=>{"use strict";e.exports=require("util")},29021:e=>{"use strict";e.exports=require("fs")},29294:e=>{"use strict";e.exports=require("next/dist/server/app-render/work-async-storage.external.js")},29434:(e,t,r)=>{"use strict";r.a(e,async(e,a)=>{try{r.d(t,{A:()=>c});var s=r(13486),n=r(60159),i=r(92960),o=r(61817),l=e([o]);function c({title:e,tabs:t,style:r="default",colorScheme:a="default",customClass:l="",animation:c={type:"none",delay:0,duration:500}}){var d;let[u,p]=(0,n.useState)(0);return t&&0!==t.length?(0,s.jsxs)("div",{className:`my-8 ${l} ${!c||"none"===c.type?"":({fadeIn:"animate-fadeIn",slideUp:"animate-slideUp",slideIn:"animate-slideIn",zoomIn:"animate-zoomIn",bounce:"animate-bounce"})[c.type]||""}`,style:c&&"none"!==c.type?{animationDelay:`${c.delay||0}ms`,animationDuration:`${c.duration||500}ms`}:{},children:[e&&(0,s.jsx)("h2",{className:"text-2xl font-bold mb-4",children:e}),(0,s.jsxs)("div",{className:"tabs-container",children:[(0,s.jsx)("div",{className:`tabs-header ${function(e){switch(e){case"pills":return"flex space-x-2 mb-4";case"underline":return"flex border-b border-gray-200 mb-4";case"boxed":return"flex mb-0";default:return"flex space-x-4 mb-4"}}(r)}`,children:t.map((e,t)=>(0,s.jsxs)("button",{className:`tab-button ${function(e,t,r){let a=()=>{switch(r){case"purple":return"border-purple-600 text-purple-600";case"green":return"border-green-600 text-green-600";case"red":return"border-red-600 text-red-600";case"gray":return"border-gray-700 text-gray-700";default:return"border-blue-600 text-blue-600"}};switch(e){case"pills":return`px-4 py-2 rounded-full ${t?(()=>{switch(r){case"purple":return"bg-purple-600 text-white";case"green":return"bg-green-600 text-white";case"red":return"bg-red-600 text-white";case"gray":return"bg-gray-700 text-white";default:return"bg-blue-600 text-white"}})():"bg-gray-100 text-gray-700 hover:bg-gray-200"}`;case"underline":return`px-4 py-2 -mb-px ${t?`border-b-2 ${a()}`:"text-gray-500 hover:text-gray-700"}`;case"boxed":return`px-4 py-2 ${t?`bg-white border-t border-l border-r border-gray-200 rounded-t-lg ${a().split(" ")[1]}`:"bg-gray-100 text-gray-500 hover:text-gray-700"}`;default:return`px-4 py-2 ${t?a().split(" ")[1]:"text-gray-500 hover:text-gray-700"}`}}(r,t===u,a)}`,onClick:()=>p(t),children:[e.icon&&(0,s.jsx)("span",{className:"mr-2",children:e.icon}),e.title]},t))}),(0,s.jsx)("div",{className:`tab-content ${(d=r,"boxed"===d?"border border-gray-200 rounded-b-lg p-6":"pt-4")}`,children:t[u]?.content&&(0,s.jsx)("div",{className:"prose max-w-none",children:(0,s.jsx)(i.RK,{value:t[u].content,components:{types:{image:({value:e})=>(0,s.jsx)("img",{src:(0,o.dk)(e).width(800).url(),alt:e.alt||" ",className:"rounded-lg my-4"})}}})})})]})]}):null}o=(l.then?(await l)():l)[0],a()}catch(e){a(e)}})},31257:(e,t)=>{"use strict";function r(){return null}Object.defineProperty(t,"__esModule",{value:!0}),Object.defineProperty(t,"default",{enumerable:!0,get:function(){return r}}),("function"==typeof t.default||"object"==typeof t.default&&null!==t.default)&&void 0===t.default.__esModule&&(Object.defineProperty(t.default,"__esModule",{value:!0}),Object.assign(t.default,t),e.exports=t.default)},33873:e=>{"use strict";e.exports=require("path")},34631:e=>{"use strict";e.exports=require("tls")},39949:(e,t,r)=>{"use strict";r.a(e,async(e,a)=>{try{r.d(t,{A:()=>l});var s=r(13486),n=r(92960),i=r(61817),o=e([i]);function l({title:e,subtitle:t,steps:r,layout:a="vertical"}){return r&&0!==r.length?(0,s.jsxs)("div",{className:"my-12",children:[(e||t)&&(0,s.jsxs)("div",{className:"text-center mb-10",children:[e&&(0,s.jsx)("h2",{className:"text-3xl font-bold mb-3",children:e}),t&&(0,s.jsx)("p",{className:"text-xl text-gray-600 max-w-3xl mx-auto",children:t})]}),(0,s.jsx)("div",{className:`steps-container ${"horizontal"===a?"flex flex-wrap justify-center gap-8":"space-y-12"}`,children:r.map((e,t)=>(0,s.jsxs)("div",{className:`step ${"horizontal"===a?"w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]":"flex items-start gap-6"}`,children:[(0,s.jsx)("div",{className:`step-number ${"horizontal"===a?"mb-4":"flex-shrink-0"}`,children:(0,s.jsx)("div",{className:"flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white text-xl font-bold",children:t+1})}),(0,s.jsxs)("div",{className:`step-content ${"horizontal"===a?"":"flex-grow"}`,children:[(0,s.jsx)("h3",{className:"text-xl font-bold mb-3",children:e.title}),e.image&&(0,s.jsx)("div",{className:"mb-4",children:(0,s.jsx)("img",{src:(0,i.dk)(e.image).width(800).url(),alt:e.title,className:"w-full h-auto rounded-lg"})}),(0,s.jsx)("div",{className:"prose max-w-none",children:(0,s.jsx)(n.RK,{value:e.description,components:{types:{image:({value:e})=>(0,s.jsx)("img",{src:(0,i.dk)(e).width(800).url(),alt:e.alt||" ",className:"rounded-lg my-4"})}}})})]})]},t))})]}):null}i=(o.then?(await o)():o)[0],a()}catch(e){a(e)}})},41204:e=>{"use strict";e.exports=require("string_decoder")},43103:(e,t,r)=>{"use strict";async function a({params:e}){let t="BeatsChain",a="Web3 beat marketplace";try{let{client:s}=r(17983),n=await s.fetch('*[_type == "page" && slug.current == $slug][0]{title, seo}',{slug:e.slug});n&&(t=n.seo?.metaTitle||n.title||t,a=n.seo?.metaDescription||a)}catch(e){}return{title:t,description:a,openGraph:{title:t,description:a,url:`https://beatschain.app/${e.slug}`,type:"website",siteName:"BeatsChain",images:[{url:"https://beatschain.app/opengraph-image",width:1200,height:630,alt:t}]},twitter:{card:"summary_large_image",title:t,description:a,images:["https://beatschain.app/opengraph-image"]}}}function s({children:e}){return e}r.r(t),r.d(t,{default:()=>s,generateMetadata:()=>a})},55511:e=>{"use strict";e.exports=require("crypto")},55591:e=>{"use strict";e.exports=require("https")},55707:(e,t,r)=>{"use strict";r.r(t),r.d(t,{GlobalError:()=>i.a,__next_app__:()=>u,pages:()=>d,routeModule:()=>p,tree:()=>c});var a=r(24332),s=r(48819),n=r(67851),i=r.n(n),o=r(97540),l={};for(let e in o)0>["default","tree","pages","GlobalError","__next_app__","routeModule"].indexOf(e)&&(l[e]=()=>o[e]);r.d(t,l);let c={children:["",{children:["[slug]",{children:["__PAGE__",{},{page:[()=>Promise.resolve().then(r.bind(r,79060)),"/workspaces/beatz/beats/packages/app/src/app/[slug]/page.tsx"]}]},{layout:[()=>Promise.resolve().then(r.bind(r,43103)),"/workspaces/beatz/beats/packages/app/src/app/[slug]/layout.tsx"],metadata:{icon:[],apple:[],openGraph:[async e=>(await Promise.resolve().then(r.bind(r,30800))).default(e)],twitter:[],manifest:"/manifest.webmanifest"}}]},{layout:[()=>Promise.resolve().then(r.bind(r,50687)),"/workspaces/beatz/beats/packages/app/src/app/layout.tsx"],"not-found":[()=>Promise.resolve().then(r.bind(r,87239)),"/workspaces/beatz/beats/packages/app/src/app/not-found.tsx"],forbidden:[()=>Promise.resolve().then(r.t.bind(r,39956,23)),"next/dist/client/components/forbidden-error"],unauthorized:[()=>Promise.resolve().then(r.t.bind(r,92341,23)),"next/dist/client/components/unauthorized-error"],metadata:{icon:[],apple:[],openGraph:[async e=>(await Promise.resolve().then(r.bind(r,30800))).default(e)],twitter:[],manifest:"/manifest.webmanifest"}}]}.children,d=["/workspaces/beatz/beats/packages/app/src/app/[slug]/page.tsx"],u={require:r,loadChunk:()=>Promise.resolve()},p=new a.AppPageRouteModule({definition:{kind:s.RouteKind.APP_PAGE,page:"/[slug]/page",pathname:"/[slug]",bundlePath:"",filename:"",appPaths:[]},userland:{loaderTree:c}})},57075:e=>{"use strict";e.exports=require("node:stream")},63033:e=>{"use strict";e.exports=require("next/dist/server/app-render/work-unit-async-storage.external.js")},63645:(e,t,r)=>{"use strict";r.a(e,async(e,a)=>{try{r.d(t,{A:()=>l});var s=r(13486),n=r(60159),i=r(61817),o=e([i]);function l({title:e,testimonials:t,display:r="grid"}){let[a,o]=(0,n.useState)(0);if(!t||0===t.length)return null;let l=e=>(0,s.jsx)("div",{className:"flex items-center",children:[void 0,void 0,void 0,void 0,void 0].map((t,r)=>(0,s.jsx)("svg",{className:`w-5 h-5 ${r<e?"text-yellow-400":"text-gray-300"}`,fill:"currentColor",viewBox:"0 0 20 20",children:(0,s.jsx)("path",{d:"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"})},r))}),c=(e,t)=>(0,s.jsxs)("div",{className:"bg-white p-6 rounded-lg shadow-md",children:[(0,s.jsxs)("p",{className:"text-gray-600 mb-4 italic",children:['"',e.quote,'"']}),e.rating&&(0,s.jsx)("div",{className:"mb-4",children:l(e.rating)}),(0,s.jsxs)("div",{className:"flex items-center",children:[e.avatar&&(0,s.jsx)("div",{className:"mr-4",children:(0,s.jsx)("img",{src:(0,i.dk)(e.avatar).width(60).height(60).url(),alt:e.author,className:"w-12 h-12 rounded-full object-cover"})}),(0,s.jsxs)("div",{children:[(0,s.jsx)("p",{className:"font-bold",children:e.author}),e.role&&(0,s.jsx)("p",{className:"text-gray-500 text-sm",children:e.role})]})]})]},t);return(0,s.jsxs)("div",{className:"my-12",children:[e&&(0,s.jsx)("div",{className:"text-center mb-10",children:(0,s.jsx)("h2",{className:"text-3xl font-bold",children:e})}),"grid"===r&&(0,s.jsx)("div",{className:"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6",children:t.map((e,t)=>c(e,t))}),"carousel"===r&&(0,s.jsxs)("div",{className:"relative",children:[(0,s.jsx)("div",{className:"overflow-hidden",children:(0,s.jsx)("div",{className:"flex transition-transform duration-300 ease-in-out",style:{transform:`translateX(-${100*a}%)`},children:t.map((e,t)=>(0,s.jsx)("div",{className:"w-full flex-shrink-0 px-4",children:c(e,t)},t))})}),(0,s.jsx)("div",{className:"flex justify-center mt-6 space-x-2",children:t.map((e,t)=>(0,s.jsx)("button",{className:`w-3 h-3 rounded-full ${t===a?"bg-blue-600":"bg-gray-300"}`,onClick:()=>o(t),"aria-label":`Go to testimonial ${t+1}`},t))}),t.length>1&&(0,s.jsxs)(s.Fragment,{children:[(0,s.jsx)("button",{className:"absolute top-1/2 left-0 -translate-y-1/2 bg-white rounded-full p-2 shadow-md",onClick:()=>o(e=>0===e?t.length-1:e-1),"aria-label":"Previous testimonial",children:(0,s.jsx)("svg",{className:"w-6 h-6",fill:"none",stroke:"currentColor",viewBox:"0 0 24 24",children:(0,s.jsx)("path",{strokeLinecap:"round",strokeLinejoin:"round",strokeWidth:2,d:"M15 19l-7-7 7-7"})})}),(0,s.jsx)("button",{className:"absolute top-1/2 right-0 -translate-y-1/2 bg-white rounded-full p-2 shadow-md",onClick:()=>o(e=>e===t.length-1?0:e+1),"aria-label":"Next testimonial",children:(0,s.jsx)("svg",{className:"w-6 h-6",fill:"none",stroke:"currentColor",viewBox:"0 0 24 24",children:(0,s.jsx)("path",{strokeLinecap:"round",strokeLinejoin:"round",strokeWidth:2,d:"M9 5l7 7-7 7"})})})]})]}),"list"===r&&(0,s.jsx)("div",{className:"space-y-6",children:t.map((e,t)=>c(e,t))})]})}i=(o.then?(await o)():o)[0],a()}catch(e){a(e)}})},70524:(e,t,r)=>{"use strict";r.d(t,{A:()=>a});let a={contact:{title:"Contact Us",content:`
+      <div class="max-w-3xl mx-auto">
+        <p class="mb-6 text-lg">Have questions about BeatsChain? We're here to help! Fill out the form below and our team will get back to you as soon as possible.</p>
+        
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <form class="space-y-4">
+            <div>
+              <label class="block text-sm font-medium text-gray-700">Your Name</label>
+              <input type="text" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm" placeholder="Enter your name" />
+            </div>
+            
+            <div>
+              <label class="block text-sm font-medium text-gray-700">Email Address</label>
+              <input type="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm" placeholder="Enter your email" />
+            </div>
+            
+            <div>
+              <label class="block text-sm font-medium text-gray-700">Subject</label>
+              <select class="mt-1 block w-full rounded-md border-gray-300 shadow-sm">
+                <option>Producer Support</option>
+                <option>Buyer Support</option>
+                <option>Technical Issue</option>
+                <option>Partnership Inquiry</option>
+                <option>Media & Press</option>
+                <option>General Inquiry</option>
+              </select>
+            </div>
+            
+            <div>
+              <label class="block text-sm font-medium text-gray-700">Message</label>
+              <textarea rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm" placeholder="Enter your message"></textarea>
+            </div>
+            
+            <div>
+              <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700">
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    `},faq:{title:"Frequently Asked Questions",content:`
+      <div class="max-w-3xl mx-auto">
+        <p class="mb-6 text-lg">Find answers to the most common questions about BeatsChain and our services.</p>
+        
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-xl font-medium text-gray-900">What is BeatsChain?</h3>
+            <p class="mt-2 text-gray-600">BeatsChain is a Web3 beat marketplace where South African producers can sell beats as NFTs. Artists can buy beats with crypto, own them forever, and producers earn automatic royalties.</p>
+          </div>
+          
+          <div>
+            <h3 class="text-xl font-medium text-gray-900">How do I buy beats?</h3>
+            <p class="mt-2 text-gray-600">Connect your wallet, browse the marketplace, and purchase beats directly with cryptocurrency. Once purchased, you'll own the beat as an NFT.</p>
+          </div>
+          
+          <div>
+            <h3 class="text-xl font-medium text-gray-900">How do royalties work?</h3>
+            <p class="mt-2 text-gray-600">Producers earn automatic royalties through our smart contract whenever their beats are resold on the secondary market.</p>
+          </div>
+          
+          <div>
+            <h3 class="text-xl font-medium text-gray-900">What cryptocurrencies do you accept?</h3>
+            <p class="mt-2 text-gray-600">We currently accept ETH and MATIC for beat purchases.</p>
+          </div>
+        </div>
+      </div>
+    `},terms:{title:"Terms of Service",content:`
+      <div class="max-w-3xl mx-auto prose prose-indigo">
+        <p>Last updated: July 1, 2023</p>
+        
+        <h2>1. Introduction</h2>
+        <p>Welcome to BeatsChain. These Terms of Service govern your use of our website and services.</p>
+        
+        <h2>2. Definitions</h2>
+        <p>"Beat NFT" refers to a non-fungible token representing ownership of a beat on the blockchain.</p>
+        <p>"Platform" refers to the BeatsChain website and services.</p>
+        
+        <h2>3. Account Registration</h2>
+        <p>To use certain features of the Platform, you must register for an account and connect a compatible cryptocurrency wallet.</p>
+        
+        <h2>4. Beat Ownership & Licensing</h2>
+        <p>Purchasing a Beat NFT grants you specific rights to the underlying beat as specified in the license attached to the NFT.</p>
+        
+        <h2>5. Royalties</h2>
+        <p>Producers receive automatic royalties on secondary sales as specified in the smart contract.</p>
+        
+        <h2>6. Prohibited Activities</h2>
+        <p>Users may not engage in any illegal activities or violate these terms while using the Platform.</p>
+        
+        <h2>7. Termination</h2>
+        <p>We reserve the right to terminate or suspend your account for violations of these terms.</p>
+        
+        <h2>8. Changes to Terms</h2>
+        <p>We may update these terms from time to time. Continued use of the Platform constitutes acceptance of the updated terms.</p>
+      </div>
+    `},privacy:{title:"Privacy Policy",content:`
+      <div class="max-w-3xl mx-auto prose prose-indigo">
+        <p>Last updated: July 1, 2023</p>
+        
+        <h2>1. Information We Collect</h2>
+        <p>We collect information you provide directly to us, such as when you create an account, connect your wallet, or contact us.</p>
+        
+        <h2>2. Wallet Information</h2>
+        <p>When you connect your wallet, we collect your wallet address and transaction history on our platform.</p>
+        
+        <h2>3. How We Use Your Information</h2>
+        <p>We use your information to provide, maintain, and improve our services, process transactions, and communicate with you.</p>
+        
+        <h2>4. Sharing Your Information</h2>
+        <p>We do not sell your personal information. We may share information with service providers, for legal reasons, or in connection with a business transfer.</p>
+        
+        <h2>5. Security</h2>
+        <p>We implement reasonable security measures to protect your information.</p>
+        
+        <h2>6. Your Rights</h2>
+        <p>You have the right to access, correct, or delete your personal information.</p>
+        
+        <h2>7. Changes to This Policy</h2>
+        <p>We may update this policy from time to time. We will notify you of any changes by posting the new policy on this page.</p>
+      </div>
+    `},guide:{title:"BeatsChain User Guide",content:`
+      <div class="max-w-3xl mx-auto prose prose-indigo">
+        <h2>Getting Started</h2>
+        <p>Welcome to BeatsChain! This guide will help you navigate our platform and make the most of your experience.</p>
+        
+        <h3>1. Connect Your Wallet</h3>
+        <p>Click the "Connect Wallet" button in the top right corner to connect your Web3 wallet.</p>
+        
+        <h3>2. Browse Beats</h3>
+        <p>Explore our marketplace to discover beats from talented South African producers.</p>
+        
+        <h3>3. Purchase Beats</h3>
+        <p>When you find a beat you like, click "Buy Now" to purchase it as an NFT using cryptocurrency.</p>
+        
+        <h3>4. For Producers</h3>
+        <p>If you're a producer, you can upload your beats by clicking "Upload" in the dashboard.</p>
+        
+        <h2>Understanding Beat NFTs</h2>
+        <p>Beat NFTs represent ownership of a beat on the blockchain. When you purchase a Beat NFT, you gain specific rights to use the beat as specified in the attached license.</p>
+        
+        <h2>Royalties System</h2>
+        <p>Our smart contract automatically distributes royalties to producers when their beats are resold on the secondary market.</p>
+        
+        <h2>Need Help?</h2>
+        <p>If you have any questions or need assistance, please visit our <a href="/faq">FAQ</a> or <a href="/contact">contact us</a>.</p>
+      </div>
+    `},disclaimer:{title:"Disclaimer",content:`
+      <div class="max-w-3xl mx-auto prose prose-indigo">
+        <p>Last updated: July 1, 2023</p>
+        
+        <h2>General Disclaimer</h2>
+        <p>The information provided on BeatsChain is for general informational purposes only. All information on the site is provided in good faith, however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the site.</p>
+        
+        <h2>No Financial Advice</h2>
+        <p>The information contained on BeatsChain is not intended as, and shall not be understood or construed as, financial advice. We are not a financial advisor, registered investment advisor, or broker-dealer.</p>
+        
+        <h2>Cryptocurrency Risks</h2>
+        <p>Cryptocurrency investments are volatile and high-risk. Never invest money that you cannot afford to lose. Always conduct your own research before making any investment decisions.</p>
+        
+        <h2>NFT Ownership</h2>
+        <p>Owning a Beat NFT grants you specific rights as outlined in the license attached to the NFT. It does not necessarily grant you full copyright ownership of the underlying beat.</p>
+        
+        <h2>External Links</h2>
+        <p>BeatsChain may contain links to external websites that are not provided or maintained by us. We do not guarantee the accuracy of information on these sites.</p>
+        
+        <h2>Changes to This Disclaimer</h2>
+        <p>We may update this disclaimer from time to time. We will notify you of any changes by posting the new disclaimer on this page.</p>
+      </div>
+    `}}},72531:(e,t,r)=>{"use strict";r.a(e,async(e,a)=>{try{r.d(t,{A:()=>c});var s=r(13486),n=r(49989),i=r.n(n),o=r(61817),l=e([o]);function c({title:e,subtitle:t,cards:r,columns:a=3,style:n="default"}){return r&&0!==r.length?(0,s.jsxs)("div",{className:"my-12",children:[(e||t)&&(0,s.jsxs)("div",{className:"text-center mb-10",children:[e&&(0,s.jsx)("h2",{className:"text-3xl font-bold mb-3",children:e}),t&&(0,s.jsx)("p",{className:"text-xl text-gray-600 max-w-3xl mx-auto",children:t})]}),(0,s.jsx)("div",{className:`grid grid-cols-1 md:grid-cols-${Math.min(a,4)} gap-8`,children:r.map((e,t)=>(0,s.jsxs)("div",{className:`feature-card ${function(e){switch(e){case"bordered":return"p-6 border border-gray-200 rounded-lg hover:border-gray-300";case"shadowed":return"p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow";case"minimal":return"p-4";default:return"p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"}}(n)}`,children:[e.image&&(0,s.jsx)("div",{className:"mb-4",children:(0,s.jsx)("img",{src:(0,o.dk)(e.image).width(400).height(225).url(),alt:e.title,className:"w-full h-auto rounded-lg"})}),e.icon&&!e.image&&(0,s.jsx)("div",{className:"text-3xl mb-4",children:e.icon}),(0,s.jsx)("h3",{className:"text-xl font-bold mb-2",children:e.title}),(0,s.jsx)("p",{className:"text-gray-600 mb-4",children:e.description}),e.link&&(e.link.isExternal?(0,s.jsxs)("a",{href:e.link.url,target:"_blank",rel:"noopener noreferrer",className:"text-blue-600 hover:text-blue-800 font-medium",children:[e.link.text||"Learn more"," →"]}):(0,s.jsxs)(i(),{href:e.link.url,className:"text-blue-600 hover:text-blue-800 font-medium",children:[e.link.text||"Learn more"," →"]}))]},t))})]}):null}o=(l.then?(await l)():l)[0],a()}catch(e){a(e)}})},73566:e=>{"use strict";e.exports=require("worker_threads")},74075:e=>{"use strict";e.exports=require("zlib")},75919:e=>{"use strict";e.exports=require("node:worker_threads")},77598:e=>{"use strict";e.exports=require("node:crypto")},79060:(e,t,r)=>{"use strict";r.r(t),r.d(t,{default:()=>a});let a=(0,r(33952).registerClientReference)(function(){throw Error("Attempted to call the default export of \"/workspaces/beatz/beats/packages/app/src/app/[slug]/page.tsx\" from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"/workspaces/beatz/beats/packages/app/src/app/[slug]/page.tsx","default")},79428:e=>{"use strict";e.exports=require("buffer")},79551:e=>{"use strict";e.exports=require("url")},80371:(e,t,r)=>{"use strict";r.a(e,async(e,a)=>{try{r.d(t,{A:()=>d});var s=r(13486),n=r(60159),i=r(31257),o=r.n(i),l=r(20497),c=e([l]);function d({title:e,description:t,ogImage:r,noIndex:a=!1,canonicalUrl:i,structuredData:l,siteSettings:c,keywords:d=[],ogType:u="website",twitterCard:p="summary_large_image"}){let h=e||c?.seo?.metaTitle||"BeatsChain",m=t||c?.seo?.metaDescription||"Web3 beat marketplace connecting SA producers with global artists";r||c?.seo?.ogImage;let[x,g]=(0,n.useState)("/og-image.jpg"),[y,b]=(0,n.useState)(""),f=i||(c?.seo?.canonicalUrlBase&&y?`${c.seo.canonicalUrlBase}${window.location.pathname}`:y),v=l||c?.seo?.structuredData,w=[...d,...c?.seo?.keywords||[]];return(0,s.jsxs)(o(),{children:[(0,s.jsx)("title",{children:h}),(0,s.jsx)("meta",{name:"description",content:m}),w.length>0&&(0,s.jsx)("meta",{name:"keywords",content:w.join(", ")}),(0,s.jsx)("meta",{property:"og:type",content:u}),(0,s.jsx)("meta",{property:"og:title",content:h}),(0,s.jsx)("meta",{property:"og:description",content:m}),(0,s.jsx)("meta",{property:"og:image",content:x}),(0,s.jsx)("meta",{property:"og:url",content:y}),(0,s.jsx)("meta",{property:"og:site_name",content:"BeatsChain"}),(0,s.jsx)("meta",{name:"twitter:card",content:p}),(0,s.jsx)("meta",{name:"twitter:title",content:h}),(0,s.jsx)("meta",{name:"twitter:description",content:m}),(0,s.jsx)("meta",{name:"twitter:image",content:x}),(0,s.jsx)("meta",{name:"twitter:site",content:"@BeatsChain"}),f&&(0,s.jsx)("link",{rel:"canonical",href:f}),a&&(0,s.jsx)("meta",{name:"robots",content:"noindex"}),v&&(0,s.jsx)("script",{type:"application/ld+json",dangerouslySetInnerHTML:{__html:"string"==typeof v?v:JSON.stringify(v)}})]})}l=(c.then?(await c)():c)[0],a()}catch(e){a(e)}})},80408:()=>{},81630:e=>{"use strict";e.exports=require("http")},81667:(e,t,r)=>{Promise.resolve().then(r.bind(r,14842))},87032:()=>{},88440:(e,t,r)=>{"use strict";r.d(t,{A:()=>i});var a=r(13486),s=r(49989),n=r.n(s);function i({title:e,subtitle:t,plans:r}){return r&&0!==r.length?(0,a.jsxs)("div",{className:"my-12",children:[(e||t)&&(0,a.jsxs)("div",{className:"text-center mb-10",children:[e&&(0,a.jsx)("h2",{className:"text-3xl font-bold mb-3",children:e}),t&&(0,a.jsx)("p",{className:"text-xl text-gray-600 max-w-3xl mx-auto",children:t})]}),(0,a.jsx)("div",{className:"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",children:r.map((e,t)=>(0,a.jsxs)("div",{className:`pricing-plan rounded-lg overflow-hidden ${e.highlighted?"border-2 border-blue-500 shadow-lg relative":"border border-gray-200 shadow-sm"}`,children:[e.highlighted&&(0,a.jsx)("div",{className:"absolute top-0 right-0 bg-blue-500 text-white px-4 py-1 rounded-bl-lg text-sm font-medium",children:"Popular"}),(0,a.jsxs)("div",{className:`p-6 ${e.highlighted?"bg-blue-50":"bg-gray-50"}`,children:[(0,a.jsx)("h3",{className:"text-xl font-bold mb-2",children:e.name}),(0,a.jsxs)("div",{className:"flex items-baseline",children:[(0,a.jsx)("span",{className:"text-3xl font-bold",children:e.price}),e.interval&&(0,a.jsxs)("span",{className:"text-gray-500 ml-1",children:["/",e.interval]})]}),e.description&&(0,a.jsx)("p",{className:"mt-2 text-gray-600",children:e.description})]}),(0,a.jsx)("div",{className:"p-6",children:(0,a.jsx)("ul",{className:"space-y-3",children:e.features.map((e,t)=>(0,a.jsxs)("li",{className:"flex items-start",children:[(0,a.jsx)("svg",{className:"w-5 h-5 text-green-500 mr-2 flex-shrink-0",fill:"none",stroke:"currentColor",viewBox:"0 0 24 24",children:(0,a.jsx)("path",{strokeLinecap:"round",strokeLinejoin:"round",strokeWidth:2,d:"M5 13l4 4L19 7"})}),(0,a.jsx)("span",{children:e})]},t))})}),e.cta&&(0,a.jsx)("div",{className:"px-6 pb-6",children:(0,a.jsx)(n(),{href:e.cta.url,className:`block w-full py-2 px-4 rounded-md text-center font-medium ${e.highlighted?"bg-blue-600 hover:bg-blue-700 text-white":"bg-gray-100 hover:bg-gray-200 text-gray-800"}`,children:e.cta.text})})]},t))})]}):null}},91645:e=>{"use strict";e.exports=require("net")},94735:e=>{"use strict";e.exports=require("events")},99232:(e,t,r)=>{"use strict";r.a(e,async(e,a)=>{try{r.d(t,{A:()=>c});var s=r(13486),n=r(60159),i=r(92960),o=r(61817),l=e([o]);function c({title:e,items:t,allowMultiple:r=!1,colorScheme:a="default",customClass:l="",animation:c={type:"none",delay:0,duration:500}}){let[d,u]=(0,n.useState)(t?.map(e=>!!e.isOpen)||[]);if(!t||0===t.length)return null;let p=e=>{r?u(t=>{let r=[...t];return r[e]=!r[e],r}):u(t=>t.map((r,a)=>a===e&&!t[e]))};return(0,s.jsxs)("div",{className:`my-8 ${l} ${!c||"none"===c.type?"":({fadeIn:"animate-fadeIn",slideUp:"animate-slideUp",slideIn:"animate-slideIn",zoomIn:"animate-zoomIn",bounce:"animate-bounce"})[c.type]||""}`,style:c&&"none"!==c.type?{animationDelay:`${c.delay||0}ms`,animationDuration:`${c.duration||500}ms`}:{},children:[e&&(0,s.jsx)("h2",{className:"text-2xl font-bold mb-4",children:e}),(0,s.jsx)("div",{className:`accordion-container border rounded-lg divide-y ${(()=>{switch(a){case"purple":return"border-purple-500";case"green":return"border-green-500";case"red":return"border-red-500";case"gray":return"border-gray-700";default:return"border-blue-500"}})()}`,children:t.map((e,t)=>(0,s.jsxs)("div",{className:"accordion-item",children:[(0,s.jsxs)("button",{className:"w-full text-left p-4 flex justify-between items-center hover:bg-gray-50 focus:outline-none",onClick:()=>p(t),children:[(0,s.jsx)("span",{className:"font-medium",children:e.title}),(0,s.jsx)("span",{className:"transform transition-transform",children:d[t]?"−":"+"})]}),d[t]&&(0,s.jsx)("div",{className:"p-4 pt-0 prose max-w-none",children:(0,s.jsx)(i.RK,{value:e.content,components:{types:{image:({value:e})=>(0,s.jsx)("img",{src:(0,o.dk)(e).width(800).url(),alt:e.alt||" ",className:"rounded-lg my-4"})}}})})]},t))})]})}o=(l.then?(await l)():l)[0],a()}catch(e){a(e)}})}};var t=require("../../webpack-runtime.js");t.C(e);var r=e=>t(t.s=e),a=t.X(0,[2050,973,6e3,2960,6740],()=>r(55707));module.exports=a})();
