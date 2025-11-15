@@ -1,0 +1,30 @@
+name: MCP CI
+
+on:
+  push:
+    paths:
+      - 'packages/mcp-server/**'
+  pull_request:
+    paths:
+      - 'packages/mcp-server/**'
+
+jobs:
+  mcp-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install server deps
+        working-directory: packages/mcp-server
+        run: npm install --no-audit --no-fund
+      - name: Start MCP server
+        working-directory: packages/mcp-server
+        run: |
+          nohup node src/index.js > mcp.log 2>&1 &
+          sleep 2
+      - name: Run smoke tests
+        working-directory: packages/mcp-server
+        run: npm run test
