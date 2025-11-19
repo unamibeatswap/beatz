@@ -15,6 +15,10 @@ const IpfsPinner = require('./services/ipfsPinner');
 const app = express();
 const port = process.env.PORT || 4000;
 
+// Security middleware
+const securityHeaders = require('./middleware/securityHeaders');
+app.use(securityHeaders);
+
 // Enhanced Railway Environment Debug
 console.log('=== RAILWAY ENVIRONMENT DEBUG ===');
 console.log('PORT:', process.env.PORT);
@@ -34,8 +38,24 @@ console.log('All env keys:', Object.keys(process.env).sort());
 console.log('SUPABASE keys found:', Object.keys(process.env).filter(k => k.includes('SUPABASE')));
 console.log('================================');
 
-app.use(cors());
+// CORS configuration
+const corsOptions = {
+  origin: process.env.CORS_ORIGIN || '*',
+  credentials: true,
+  optionsSuccessStatus: 200
+};
+app.use(cors(corsOptions));
 app.use(express.json({ limit: '10mb' }));
+
+// Request logging for production monitoring
+app.use((req, res, next) => {
+  const start = Date.now();
+  res.on('finish', () => {
+    const duration = Date.now() - start;
+    console.log(`${req.method} ${req.path} ${res.statusCode} ${duration}ms`);
+  });
+  next();
+});
 
 // Root endpoint for Railway health check
 app.get('/', (req, res) => {
