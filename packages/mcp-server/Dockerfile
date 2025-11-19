@@ -1,33 +1,24 @@
 FROM node:20-alpine
 
-# Add security and performance optimizations
-RUN apk add --no-cache dumb-init
-
 WORKDIR /usr/src/app
 
-# Copy package files first for better caching
+# Copy package files
 COPY package*.json ./
 
 # Install dependencies
-RUN npm ci --only=production && npm cache clean --force
+RUN npm ci --only=production
 
 # Copy source code
 COPY src/ ./src/
 
-# Create uploads directory with proper permissions
-RUN mkdir -p uploads && chmod 755 uploads
+# Create uploads directory
+RUN mkdir -p uploads
 
-# Verify critical dependencies
-RUN node -e "console.log('Ethers version:', require('ethers').version)" && \
-    node -e "console.log('Express loaded:', !!require('express'))" && \
-    node -e "console.log('Supabase loaded:', !!require('@supabase/supabase-js'))"
+# Verify ethers installation
+RUN node -e "console.log('Ethers version:', require('ethers').version)"
 
-# Use non-root user for security
-USER node
-
-# Expose port (Railway will map dynamically)
+# Expose server port
 EXPOSE 4000
 
-# Use dumb-init for proper signal handling
-ENTRYPOINT ["dumb-init", "--"]
+# Start server
 CMD ["node", "src/index.js"]
