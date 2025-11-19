@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+.env
+.env.local
+.vscode
+.git
+.gitignore
+dist
+build
+*.pem
+packages/**/node_modules
+beats/packages/hardhat/cache
