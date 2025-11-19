@@ -4,18 +4,13 @@ const cors = require('cors');
 const fs = require('fs');
 const multer = require('multer');
 
-// Ensure uploads directory exists with proper permissions
+// Ensure uploads directory exists
 const uploadsDir = 'uploads';
 if (!fs.existsSync(uploadsDir)) {
   fs.mkdirSync(uploadsDir, { recursive: true, mode: 0o755 });
   console.log('Created uploads directory');
 }
 
-// Ensure uploads directory exists before multer initialization
-const uploadsDir = 'uploads';
-if (!fs.existsSync(uploadsDir)) {
-  fs.mkdirSync(uploadsDir, { recursive: true, mode: 0o755 });
-}
 const upload = multer({ dest: 'uploads/' });
 const IpfsPinner = require('./services/ipfsPinner');
 
