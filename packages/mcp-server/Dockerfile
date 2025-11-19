@@ -17,8 +17,8 @@ RUN mkdir -p uploads
 # Verify ethers installation
 RUN node -e "console.log('Ethers version:', require('ethers').version)"
 
-# Use Railway's PORT
-EXPOSE $PORT
+# Expose server port used by the app (numeric value)
+EXPOSE 4000
 
 # Start server
 CMD ["node", "src/index.js"]

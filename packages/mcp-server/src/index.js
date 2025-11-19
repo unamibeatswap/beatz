@@ -175,6 +175,15 @@ try {
   console.warn('Beats routes not available:', e && e.message)
 }
 
+// Mount Splits (split-sheet signing) routes
+try {
+  const splits = require('./routes/splits')
+  app.use('/api', splits)
+  console.log('✅ Splits routes loaded')
+} catch (e) {
+  console.warn('Splits routes not available:', e && e.message)
+}
+
 // Mount Sync routes
 try {
   const sync = require('./routes/sync')
